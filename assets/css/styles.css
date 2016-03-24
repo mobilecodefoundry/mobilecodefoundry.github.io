@@ -1,0 +1,43 @@
+h1.text-uppercase.cmp-name{
+  font-family:'Montserrat';
+  font-weight:700;
+  font-stretch:semi-expanded;
+  font-size:32px;
+  letter-spacing:6px;
+  color:#5c5c5c;
+  display:inline-block;
+}
+
+@media (min-width:991px) {
+  img{
+    float:left;
+  }
+}
+
+@media (max-width:991px) {
+  div.container.brand{
+    text-align:center;
+  }
+}
+
+.page-header{
+  padding-bottom:40px;
+  border-bottom:none;
+}
+
+@media (max-width:991px) {
+  div.container.brand{
+    max-width:728px;
+  }
+}
+
+div.container.brand{
+  max-width:940px;
+}
+
+div.jumbotron.hero{
+  background:url(../../assets/img/CFBackground.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
+}
+
