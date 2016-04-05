@@ -1,43 +1,72 @@
-h1.text-uppercase.cmp-name{
-  font-family:'Montserrat';
-  font-weight:700;
-  font-stretch:semi-expanded;
-  font-size:32px;
-  letter-spacing:6px;
-  color:#5c5c5c;
-  display:inline-block;
+p {
+  font-family: 'Bitter', serif;
 }
 
-@media (min-width:991px) {
-  img{
-    float:left;
+h1.text-uppercase.cmp-name {
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  font-stretch: semi-expanded;
+  font-size: 32px;
+  letter-spacing: 6px;
+  color: #5c5c5c;
+  display: inline-block;
+}
+
+.hero-header {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px;
+}
+
+.hero-subtitle {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.83);
+  font-size: 15px;
+  line-height: 22px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px;
+}
+
+@media (min-width: 991px) {
+  img {
+    float: left;
   }
 }
 
-@media (max-width:991px) {
-  div.container.brand{
-    text-align:center;
+@media (max-width: 991px) {
+  div.container.brand {
+    text-align: center;
   }
 }
 
-.page-header{
-  padding-bottom:40px;
-  border-bottom:none;
+.page-header {
+  padding-bottom: 40px;
+  border-bottom: none;
 }
 
-@media (max-width:991px) {
-  div.container.brand{
-    max-width:728px;
+@media (max-width: 991px) {
+  div.container.brand {
+    max-width: 728px;
   }
 }
 
-div.container.brand{
-  max-width:940px;
+div.container.brand {
+  max-width: 940px;
+  padding-top: 3rem;
 }
 
-div.jumbotron.hero{
-  background:url(../../assets/img/CFBackground.jpg) no-repeat center;
-  background-size:cover;
-  border:none;
+div.jumbotron.hero {
+  background: url(../../assets/img/CFBackground.jpg) no-repeat center;
+  background-size: cover;
+  border: none;
+  padding-bottom: 0;
 }
 
+.grey {
+  background-color: #f5f6f7;
+}
