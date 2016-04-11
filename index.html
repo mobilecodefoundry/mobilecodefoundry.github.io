@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>codefoundry</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/CFLogo.png"/>
   </head>
 
   <body>
     <div class="page-header">
-      <div class="container brand"><img src="assets/img/CFLogo.png" width="64">
+      <div class="container brand">
+        <img class="logo" src="assets/img/CFLogo.png" width="64">
         <h1 class="text-uppercase cmp-name">Code Foundry</h1></div>
     </div>
     <div class="jumbotron hero">
@@ -32,8 +34,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h3>What we do</h3>
-            <p>CodeFoundry is a software development service company, providing software engineering services on
+            <h3 class="section-header">What we do</h3>
+            <p class="pitch">CodeFoundry is a software development service company, providing software engineering
+              services on
               contract
               base. We have been operating as a cohesive engineering team from Northern California area for more than 15
               years
@@ -42,21 +45,25 @@
               solving complex problems for our customers through programming and making a difference in people
               lives! </p>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><img src="assets/img/CFPlatforms.png" width="100%"></div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-col">
+            <img class="side-img" src="assets/img/CFPlatforms.png" width="100%">
+          </div>
         </div>
       </div>
     </div>
     <div class="section grey">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><img src="assets/img/CFCubes.jpg" width="100%" height="CF">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-col">
+            <img src="assets/img/CFCubes.jpg" width="100%" height="CF">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h3>Technologies we master</h3>
-            <p>Our specialization is native mobile applications for iOS, Android and Windows. Here are some examples of
+            <h3 class="section-header">Technologies we master</h3>
+            <p class="pitch">Our specialization is native mobile applications for iOS, Android and Windows. Here are
+              some examples of
               what
               we can do for you: </p>
-            <ul>
+            <ul class="tech-list">
               <li>Create a mobile application for one or more platforms</li>
               <li>Integrate an application with existing services</li>
               <li>Create service to support a mobile application</li>
@@ -74,24 +81,37 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-center">Who we are</h2></div>
+          <div class="col-xs-12">
+            <h2 class="text-center section-header">Who we are</h2></div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img src="assets/img/CFTim.png" width="100%">
-            <h4 class="text-center">Tim Beschastnov</h4></div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img src="assets/img/CFSerge.png" width="100%">
-            <h4 class="text-center">Sergey Aldoukhov</h4></div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img src="assets/img/CFAlex.png" width="100%">
-            <h4 class="text-center">Alexander Chumikov</h4></div>
+        <div class="row team">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <a href="https://www.linkedin.com/in/tbeschastnov">
+              <img src="assets/img/CFTim.png" width="210">
+              <h4 class="text-center">Tim Beschastnov</h4>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <a href="https://www.linkedin.com/in/saldoukhov">
+              <img src="assets/img/CFSerge.png" width="210">
+              <h4 class="text-center">Sergey Aldoukhov</h4>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <a href="https://www.linkedin.com/in/achumikov/">
+              <img src="assets/img/CFAlex.png" width="210">
+              <h4 class="text-center">Alexander Chumikov</h4>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <footer>
+    <footer class="section grey">
       <h3 class="text-center">Contact us at:</h3>
-      <h3 class="text-center"><a href="#">info@mobilecodefoundry.com </a></h3></footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <h3 class="text-center">
+        <a href="mailto:mobilecodefoundry@gmail.com">mobilecodefoundry@gmail.com</a>
+      </h3>
+    </footer>
   </body>
 
 </html>

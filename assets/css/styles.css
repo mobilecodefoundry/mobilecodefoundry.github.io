@@ -2,6 +2,60 @@ p {
   font-family: 'Bitter', serif;
 }
 
+.pitch {
+  font-size: 14px;
+  line-height: 21px;
+  display: block;
+  margin-bottom: 5px;
+  color: #a1a1a1;
+  text-align: left;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+  }
+
+  .img-col {
+    align-self: center;
+  }
+}
+.team {
+  margin-top: 2rem;
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+}
+
+.team img {
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team h4 {
+  font-family: Montserrat, sans-serif;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
+.tech-list {
+  float: none;
+  color: #a1a1a1;
+  text-align: left;
+}
+
+li {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
 h1.text-uppercase.cmp-name {
   font-family: 'Montserrat', serif;
   font-weight: 700;
@@ -12,8 +66,16 @@ h1.text-uppercase.cmp-name {
   display: inline-block;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.logo {
+  margin-top: -1rem;
+}
+
 .hero-header {
-  margin-top: 130px;
+  margin-top: 3rem;
   margin-bottom: 20px;
   font-family: 'Montserrat', serif;
   font-weight: 700;
@@ -32,10 +94,14 @@ h1.text-uppercase.cmp-name {
   text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px;
 }
 
-@media (min-width: 991px) {
-  img {
-    float: left;
-  }
+.section-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #745785;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
 }
 
 @media (max-width: 991px) {
@@ -65,8 +131,14 @@ div.jumbotron.hero {
   background-size: cover;
   border: none;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .grey {
   background-color: #f5f6f7;
+}
+
+footer h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
 }
